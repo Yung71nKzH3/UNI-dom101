@@ -10,4 +10,12 @@
 
 'use strict';
 
-// add your functions here
+//Question 1
+function replaceText(elem, str) {
+    elem.textContent = str;
+}
+
+//Question 2
+function addTextTo(elem, str) {
+    elem.textContent += str;
+}
