@@ -19,3 +19,17 @@ function replaceText(elem, str) {
 function addTextTo(elem, str) {
     elem.textContent += str;
 }
+
+//Question 3
+function moreBears() {
+    let elem = document.getElementById("animals")
+    elem.src = "http://placebear.com/400/200"
+    elem.alt = "A bear."
+    elem.title = "A BEAR!"
+}
+
+//Question 4
+function setId(elem, str) {
+    elem.id = str;
+    return elem;
+}
