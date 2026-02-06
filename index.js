@@ -102,3 +102,19 @@ function dupe(selector) {
     return original;
 }
 
+//Question 15
+function removeAll(selector) {
+    const elements = document.querySelectorAll(selector);
+    elements.forEach(element => element.remove());
+    return elements;
+}
+
+//Question 16
+function getUserData() {
+    const userData = {
+        name: document.querySelector("#username").value,
+        speed: parseInt(document.querySelector("#speed").value, 10),
+        student: document.querySelector("#student").checked
+    };
+    return userData;
+}
