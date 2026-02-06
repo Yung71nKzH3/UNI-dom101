@@ -35,40 +35,40 @@ function setId(elem, str) {
 }
 
 //Question 5
-function setClass(elem, str){
+function setClass(elem, str) {
     elem.className = str;
     return elem;
 }
 
 //Question 6
-function addAClass(elem, str){
+function addAClass(elem, str) {
     elem.classList.add(str);
     return elem;
 }
 
 //Question 7
-function removeAClass(elem, str){
+function removeAClass(elem, str) {
     elem.classList.remove(str);
     return elem;
 }
 
 //Question 8
-function newElement(name){
+function newElement(name) {
     return document.createElement(name);
 }
 
 //Question 9
-function findElementById(id){
+function findElementById(id) {
     return document.querySelector(`#${id}`);
 }
 
 //Question 10
-function findElementsByQuery(query){
+function findElementsByQuery(query) {
     return document.querySelectorAll(query)
 }
 
 //Question 11
-function reverseList(query){
+function reverseList(query) {
     const list = document.querySelector(query);
     const items = Array.from(list.children);
     items.reverse();
